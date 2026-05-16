@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(composer create-project *)",
+      "Bash(cp -r BookStore_temp/. BookStore/)",
+      "Bash(rm -rf BookStore_temp)",
+      "Bash(php /Users/marhaensa/Documents/lab/skripsi/bnsp/bnsp-junior-web-programmer/BookStore/artisan key:generate)",
+      "Bash(mysql *)",
+      "Bash(/Applications/XAMPP/xamppfiles/bin/mysql *)",
+      "Bash(php artisan *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://127.0.0.1:8000/login)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://127.0.0.1:8000/about)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://127.0.0.1:8000/register)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://127.0.0.1:8000/)"
+    ]
+  }
+}
